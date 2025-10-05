@@ -1,0 +1,18 @@
+- name: "mahender"
+  dob: "01-01-2025"
+  age: 21
+  address:
+    - doornumber: "4-34"
+      street: "hyd"
+      city: "hyderad"
+      type: "current"
+
+    - doornumber: "4-4"
+      street: "hywed"
+      city: "hydsderad"
+      type: "permanent"
+
+  skills:
+    - java
+    - devops
+    - cloud
