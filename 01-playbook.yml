@@ -3,6 +3,14 @@
 
   # List of collections or modules
   tasks:
-  - name : ping
-    ansible.builtin.ping
+   - name : ping
+     ansible.builtin.ping:
 
+# ---
+# - name: ping the server
+#   hosts: frontend   # which servers you want to connect with
+#   gather_facts: false
+
+#   tasks:
+#     - name: ping
+#       ansible.builtin.ping:
