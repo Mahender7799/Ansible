@@ -6,11 +6,16 @@
    Duration: 120
    is_live_: true
    tools: #["linux", "ansible","shell"]
-   -"linux"
-   -"Shell"
-   -"Ansible"
+   - "linux"
+   - "Shell"
+   - "Ansible"
   concepts: #Dictionary or map
     cloud: aws
     cm: ansible
+  
 
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+     msg: "course name is {{ course }}, duration is {{ duration }}, is it live?: {{ is_live }}, tools are: {{ tools }}, concepts are {{ concepts }} "
 
