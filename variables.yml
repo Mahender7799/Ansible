@@ -1,10 +1,6 @@
 - name: play level variables
   hosts: local
   connection: local #ansible is connecting to localhost
-  vars:
-    COURSE: Ansible
-    duration: 10HRS
-    trainer: shiva
 
   tasks:
    - name: print the host info
