@@ -13,7 +13,7 @@
 - name : install packages
   hosts: local
   connection: local
-  beacome: yes
+  become: yes
   tasks:
   - name : print names
     ansible.builtin.package:
