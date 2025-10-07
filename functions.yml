@@ -3,7 +3,10 @@
   connection: local
   vars:
     technologies: DevOps, linux, shell, ansible # string
-
+  
+    tags:
+      Application: payment
+      Environment: dev
    #list
     listTags:
      - key: Application
