@@ -20,10 +20,18 @@
      ansible.builtin.debug:
        msg: "Technologies are: {{technologies | split(',') }}"     
 
+  #  - name: convert map to list
+  #    ansible.builtin.debug:
+  #     msg: "Tags are : {{ tags | dict2items }}"  
+
+  #  - name: conver list into map
+  #    ansible.builtin.debug:
+  #     msg: "tag map : {{ listTags | item2dict }}"     
+
    - name: convert map to list
      ansible.builtin.debug:
-      msg: "Tags are : {{ tags | dict2items }}"  
+      msg: "Tags are: {{ tags | dict2items }}"
 
-   - name: conver list into map
+   - name: convert list into map
      ansible.builtin.debug:
-      msg: "tag map : {{ listTags | item2dict }}"     
+      msg: "tag map: {{ listTags | items2dict }}"   
