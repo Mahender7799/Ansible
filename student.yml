@@ -1,18 +1,41 @@
-- name: "mahender"
-  dob: "01-01-2025"
+- name: "sivakumar reddy m"
+  dob: "01-01-01"
   age: 21
-  address:
-    - doornumber: "4-34"
-      street: "hyd"
-      city: "hyderad"
-      type: "current"
-
-    - doornumber: "4-4"
-      street: "hywed"
-      city: "hydsderad"
-      type: "permanent"
-
+  addresses:
+    # Object
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: current
+  
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: perm
   skills:
-    - java
-    - devops
-    - cloud
+  - java
+  - devops
+  - cloud
+
+- name: "ramesh"
+  dob: "01-01-01"
+  age: 21
+  addresses:
+    # Object
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: current
+  
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
